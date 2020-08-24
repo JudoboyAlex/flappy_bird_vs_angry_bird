@@ -17,7 +17,7 @@ connection.once('open', () => {
   console.log("MongoDB database connection established successfully");
 })
 
-app.use('./api/users, users');
+app.use('/api/users', users);
 
 const port = process.env.PORT || 5000;
 
